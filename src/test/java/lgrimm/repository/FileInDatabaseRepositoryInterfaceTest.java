@@ -1,7 +1,5 @@
 package lgrimm.repository;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import lgrimm.entity.*;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.*;

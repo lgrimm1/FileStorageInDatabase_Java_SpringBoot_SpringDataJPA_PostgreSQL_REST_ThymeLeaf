@@ -1,11 +1,9 @@
 package lgrimm;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import lgrimm.controller.*;
 import org.junit.jupiter.api.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.boot.test.context.*;
 
 @SpringBootTest
 class FileStorageApplicationTest {
@@ -14,7 +12,7 @@ class FileStorageApplicationTest {
     FileInDatabaseController fileInDatabaseController;
 
     @Test
-    public void contextLoads() throws Exception {
+    public void contextLoads() {
         Assertions.assertNotNull(fileInDatabaseController);
     }
 }
